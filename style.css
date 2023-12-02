@@ -1,0 +1,53 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: #000000;
+    font-family: 'Poppins',sans-serif;
+}
+.card {
+    display: inline-flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    resize: horizontal;
+    overflow: hidden;
+    width: 300px;
+}
+
+.thumb {
+    flex: 1 1 200px;
+    height: 200px;
+    background: url(https://avatars.githubusercontent.com/u/135007919?v=4);
+    background-position: center;
+    background-size:cover;
+}
+
+.content {
+    flex: 2 1 300px;
+    background: #ffffff;
+    padding: 1rem 2rem;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.content button {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    overflow: none;
+    position: relative;
+    flex-direction: column;
+    background: #000000;
+}
+
+.content button a {
+    color: #ffffff;
+    text-decoration:none;
+    cursor: help;
+}
